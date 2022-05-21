@@ -1,0 +1,36 @@
+nav ul{
+    list-style-type: none;
+}
+nav{
+    background-color: rgb(13, 29, 114);
+    color: white;
+    font-size: 30px;
+    font-family:sans-serif ;
+    text-align: center ;
+}
+.gamecontainer{
+display: flex ;
+
+justify-content: center;
+
+
+}
+.container{
+display: grid;
+grid-template-columns: repeat(3,10vw);
+grid-template-rows:  repeat(3,10vw);
+font-family: 'Roboto', sans-serif;
+font-size: 50px;
+text-align: center;
+padding-left: 30vw;
+}
+.container div{
+    border: 2px solid black;
+
+}
+.container div:hover{
+    background-color: blueviolet;
+}
+.imagebox img{
+    display: none;
+}
